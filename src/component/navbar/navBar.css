@@ -1,0 +1,56 @@
+.navbar{
+    width: 100%;
+    height: 3rem;
+    background-color: #b96ac9;
+    position: sticky;
+    top: 0;
+    color: #ddfff7;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+
+.topLeft,.topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+
+.topCenter{
+    flex: 6;
+}
+
+.Navimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.userName{
+    padding-left: 5px;
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.topRight >li{
+    padding: 3px;
+}
+
+.topRight{
+    height: 60px;
+}
