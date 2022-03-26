@@ -1,0 +1,17 @@
+.card{
+    width: 50%;
+    margin: auto;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.topRight>img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
