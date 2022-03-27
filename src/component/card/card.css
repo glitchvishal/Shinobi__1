@@ -1,17 +1,75 @@
 .card{
-    width: 50%;
+    width: 30%;
+    height: auto;
     margin: auto;
+    /* background: rgba( 35, 27, 27, 0.25 ); */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #231b1b; 
+}
+
+.hr{
+    color: #231b1b;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 10pt;
 }
 
 .card-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid black;
+    padding: 1em;
+
 }
 
-.topRight>img{
-    height: 20px;
-    width: 20px;
+.topRight>img {
+    height: 30px; 
+    width: 30px;
     border-radius: 50%;
+    margin-left: 10px;
+}
+
+.block>h2{
+    color: rgb(60, 101, 233);
+}
+.block2>h2{
+    color: rgb(233, 60, 224);
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social>div{
+    margin: 0 1em ;
+
+}
+
+.social>div>h5{
+    background-color: #fdfdfd;
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 20px;
+    width: 70px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.social>div>h5:hover{
+    background-color: #325dbb;
+    color: #fdfdfd;
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }

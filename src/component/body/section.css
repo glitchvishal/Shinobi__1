@@ -1,5 +1,7 @@
 .section{
-    background-color: #ffd2fc;
+    display: flex;
+    /* background-color: #ffd2fc; */
+    background-color: #fdfdfd;
     height: 50vw;
     color: #231b1b;
 }
